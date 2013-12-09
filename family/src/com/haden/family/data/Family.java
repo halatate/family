@@ -19,6 +19,10 @@ public class Family implements Serializable {
 	public static final int ROLE_GRANDFATHER = ROLE_BASE << 2;
 	public static final int ROLE_GRANDMOTHER = ROLE_BASE << 2 + 1;
 
+	public static final int SEX_MALE = 1;
+	public static final int SEX_FEMALE = 2;
+	public static final int SEX_UNKNOWN = -1;
+
 	private Person owner;
 	private SparseArray<Map<String, Person>> familyList = new SparseArray<Map<String, Person>>();
 
