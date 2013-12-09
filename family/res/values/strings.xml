@@ -6,9 +6,9 @@
     <string name="hello_world">Hello world!</string>
     <string name="dummy_section_text">Section %1d is just a dummy section.</string>
 
-    <string name="module_home">家</string>
-    <string name="module_talk">聊天</string>
-    <string name="module_note">布告</string>
-    <string name="module_more">更多</string>
+    <string name="tab_home">家</string>
+    <string name="tab_talk">聊天</string>
+    <string name="tab_note">布告</string>
+    <string name="tab_more">更多</string>
 
 </resources>

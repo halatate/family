@@ -10,16 +10,40 @@
         android:layout_height="0dp"
         android:layout_weight="1" />
 
-    <!-- 
-    <TabHost
-        android:id="@+id/tabHost"
+    <RadioGroup
+        android:id="@+id/bottom_group"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/group_background"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+         >
 
-        <TabWidget
-            android:id="@android:id/tabs"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-    </TabHost>
- -->
+        <RadioButton
+            android:id="@+id/radio_home"
+            style="@style/radio_navigation_bar_bottom_tab"
+            android:checked="true"
+            android:drawableTop="@drawable/tab_home"
+            android:text="@string/tab_home" />
+
+        <RadioButton
+            android:id="@+id/radio_talk"
+            style="@style/radio_navigation_bar_bottom_tab"
+            android:drawableTop="@drawable/tab_talk"
+            android:text="@string/tab_talk" />
+
+        <RadioButton
+            android:id="@+id/radio_note"
+            style="@style/radio_navigation_bar_bottom_tab"
+            android:drawableTop="@drawable/tab_note"
+            android:text="@string/tab_note" />
+
+        <RadioButton
+            android:id="@+id/radio_more"
+            style="@style/radio_navigation_bar_bottom_tab"
+            android:drawableTop="@drawable/tab_more"
+            android:text="@string/tab_more" />
+    </RadioGroup>
+
 </LinearLayout>
