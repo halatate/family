@@ -7,8 +7,8 @@
     	<dimen name="title_height">45dip</dimen>
     	<dimen name="title_button_width">60dip</dimen>
     	
-    	<dimen name="kt_button_width">120dip</dimen>
-    	<dimen name="kt_button_height">150dip</dimen>
+    	<dimen name="kt_button_width">50dip</dimen>
+    	<dimen name="kt_button_height">60dip</dimen>
     	
 
 </resources>

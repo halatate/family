@@ -14,6 +14,13 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical" >
+        
+         <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/kt_0"
+                android:gravity="center"
+                android:text="TTT" />
 
         <LinearLayout
             android:id="@+id/layout4"
@@ -101,6 +108,28 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/kt_1f" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout0"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/btn_0"
+                style="@style/home_kt_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kt_0" />
+
+            <ImageButton
+                android:id="@+id/btn_0f"
+                style="@style/home_kt_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kt_0" />
         </LinearLayout>
     </LinearLayout>
 
